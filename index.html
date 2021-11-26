@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chair Master</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- The font awesome cdn link here -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <!-- The custom css file link here -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- The header section starts here -->
+
+    <header class="header">
+      <a href="#" class="logo"> <i class="fas fa-chair"></i> Chair Master </a>
+
+      <nav class="navbar">
+        <a href="#home">home</a>
+        <a href="#features">features</a>
+        <a href="#products">products</a>
+        <a href="#categories">categories</a>
+        <a href="#review">review</a>
+        <a href="#blogs">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here..." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-1.jpg" alt="" />
+          <div class="content">
+            <h3>White One</h3>
+            <span class="price">$30.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-2.jpg" alt="" />
+          <div class="content">
+            <h3>Next chair</h3>
+            <span class="price">$30.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-3.jpg" alt="" />
+          <div class="content">
+            <h3>Classic now</h3>
+            <span class="price">$30.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : $92.97/-</div>
+        <a href="#" class="btn">checkout</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>login</h3>
+        <input type="email" placeholder="Email" class="box" />
+        <input type="password" placeholder="Password" class="box" />
+        <p>forget your password? <a href="#">click here</a></p>
+        <p>don't have an account? <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn" />
+      </form>
+    </header>
+
+    <!-- The header section ends here -->
+
+    <!-- The home section starts here  -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>We have the <span>chair</span> you are looking for</h3>
+        <p>Chair Master has the chairs you need to make your house a home.</p>
+        <a href="#" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- The home section ends here -->
+
+    <!-- The features section starts here -->
+
+    <section class="features" id="features">
+      <h1 class="heading">our <span>features</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/feature-img-1.png" alt="" />
+          <h3>Beauty and modern</h3>
+          <p>New chairs are a great way to enjoy life.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="image/feature-img-2.png" alt="" />
+          <h3>free delivery</h3>
+          <p>The delivery is personalized and safe.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+
+        <div class="box">
+          <img src="image/feature-img-3.png" alt="" />
+          <h3>easy payments</h3>
+          <p>Buy protected and easy with the best promotions.</p>
+          <a href="#" class="btn">read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- The features section ends here -->
+
+    <!-- The products section starts here -->
+
+    <section class="products" id="products">
+      <h1 class="heading">our <span>products</span></h1>
+
+      <div class="swiper product-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/product-1.png" alt="" />
+            <h3>Black chair</h3>
+            <div class="price">$30.99/- - 50.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/product-2.png" alt="" />
+            <h3>White one</h3>
+            <div class="price">$30.99/- - 50.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/product-3.png" alt="" />
+            <h3>Classic one</h3>
+            <div class="price">$30.99/- - 50.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/product-4.png" alt="" />
+            <h3>Silver chair</h3>
+            <div class="price">$30.99/- - 50.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="swiper product-slide">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/product-5.png" alt="" />
+            <h3>New Master</h3>
+            <div class="price">$30.99/- - 50.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/product-6.png" alt="" />
+            <h3>wood now</h3>
+            <div class="price">$30.99/- - 50.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/product-7.png" alt="" />
+            <h3>Gray chair</h3>
+            <div class="price">$30.99/- - 50.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/product-8.png" alt="" />
+            <h3>Modern Chair</h3>
+            <div class="price">$30.99/- - 50.99/-</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <a href="#" class="btn">add to cart</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The products section ends here -->
+
+    <!-- The categories section starts here -->
+
+    <section class="categories" id="categories">
+      <h1 class="heading">product <span>categories</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/cat-1.png" alt="" />
+          <h3>Classics</h3>
+          <p>15% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/cat-2.png" alt="" />
+          <h3>Master next</h3>
+          <p>15% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/cat-3.png" alt="" />
+          <h3>Wood news</h3>
+          <p>15% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+
+        <div class="box">
+          <img src="image/cat-4.png" alt="" />
+          <h3>Forever style</h3>
+          <p>15% off</p>
+          <a href="#" class="btn">shop now</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- The categories section ends here -->
+
+    <!-- The review section starts here -->
+
+    <section class="review" id="review">
+      <h1 class="heading">customer's <span>review</span></h1>
+
+      <div class="swiper review-slider">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide box">
+            <img src="image/pic-1.jpg" alt="" />
+            <p>
+              Best thing I ever see. The shop is great, amazing products and
+              experience.
+            </p>
+            <h3>Maria Patrick</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-2.jpg" alt="" />
+            <p>
+              Perfect chairs, and the web is amazing! If you are here you need
+              this chairs!! Chair Master is the Master!!
+            </p>
+            <h3>John Oliver</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-3.jpg" alt="" />
+            <p>
+              Wow! this is great! you are the Chair Master!! Thank you so much
+              for your work!!
+            </p>
+            <h3>Rebecca Silver</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+
+          <div class="swiper-slide box">
+            <img src="image/pic-4.jpg" alt="" />
+            <p>
+              Best products, I bougth four chairs and is the best thing I ever
+              did.
+            </p>
+            <h3>Peter Six</h3>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The review section ends here -->
+
+    <!-- The blogs section starts here -->
+
+    <section class="blogs" id="blogs">
+      <h1 class="heading">our <span>blogs</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/blog-1.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by John Ever </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st Mar, 2020 </a>
+            </div>
+            <h3>Chairs To Live Better</h3>
+            <p>
+              The experience to have one of this products is amazing. Now we
+              talk about the benefits.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/blog-2.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by Ken One </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st Apr, 2020 </a>
+            </div>
+            <h3>Masters of the house</h3>
+            <p>
+              New color convinations to rule your home. It is time to do it.
+              Know the secrets.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/blog-3.jpg" alt="" />
+          <div class="content">
+            <div class="icons">
+              <a href="#"> <i class="fas fa-user"></i> by Roxana Oll </a>
+              <a href="#"> <i class="fas fa-calendar"></i> 1st May, 2020 </a>
+            </div>
+            <h3>Beauty decoration</h3>
+            <p>
+              This is where everything starts. Chairs for your life. We know you
+              will love it.
+            </p>
+            <a href="#" class="btn">read more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- The blog section ends here -->
+
+    <!-- The footer section starts here -->
+
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3><i class="fas fa-chair"></i> Chair Master</h3>
+          <p>
+            The best place to find your dream chair. Fulfill your wishes. And do
+            it now!
+          </p>
+          <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-twitter"></a>
+            <a href="#" class="fab fa-instagram"></a>
+            <a href="#" class="fab fa-linkedin"></a>
+          </div>
+        </div>
+
+        <div class="box">
+          <h3>contact</h3>
+          <a href="#" class="links">
+            <i class="fas fa-phone"></i> +333-555-7654-1
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-phone"></i> +123-555-3232-1
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-envelope"></i> info@chairmaster.com.now
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-map-marker-alt"></i> Locasio, New Where, Limba.
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>Links</h3>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> home
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> features
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> products
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> categories
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> review
+          </a>
+          <a href="#" class="links">
+            <i class="fas fa-arrow-right"></i> blogs
+          </a>
+        </div>
+
+        <div class="box">
+          <h3>newsletter</h3>
+          <p>subscribe now for updates</p>
+          <input type="email" placeholder="Email" class="email" />
+          <input type="submit" value="subscribe" class="btn" />
+          <img src="image/payment.png" class="payment-img" alt="" />
+        </div>
+      </div>
+
+      <div class="credit"><span>Chair Master</span> | all rights reserved</div>
+    </section>
+
+    <!-- The footer section ends here -->
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- Here is custom js  -->
+    <script src="scripts.js"></script>
+  </body>
+</html>

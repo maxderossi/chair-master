@@ -285,6 +285,7 @@ section {
 }
 
 .home {
+  background-image: url("bea.png");
   display: flex;
   align-items: center;
   justify-content: center;
@@ -293,7 +294,6 @@ section {
   background-size: cover;
   padding-top: 17rem;
   padding-bottom: 10rem;
-  background-image: url("../image/bea.jpg");
 }
 
 .home .content {

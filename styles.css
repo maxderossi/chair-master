@@ -293,6 +293,7 @@ section {
   background-size: cover;
   padding-top: 17rem;
   padding-bottom: 10rem;
+  background-image: url("/image/bea.jpg");
 }
 
 .home .content {
